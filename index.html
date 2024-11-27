@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Receitas - Gastronomia e Cultura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px 0;
+        }
+        .menu {
+            margin: 50px 0;
+        }
+        .menu h2 {
+            margin: 20px 0;
+            color: #00796b;
+        }
+        .menu .volume {
+            background-color: white;
+            border: 2px solid #00796b;
+            display: inline-block;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .menu .volume:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .menu .volume button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .menu .volume button:hover {
+            background-color: #004d40;
+        }
+        .credits {
+            background-color: #00796b;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .credits p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MENU - RECEITAS</h1>
+    </header>
+
+    <div class="menu">
+        <div class="volume">
+            <h2>Volume 1</h2>
+            <p>Receitas Hispânicas</p>
+            <button onclick="window.open('https://drive.google.com/file/d/1pfeB5b8j5nEzj3vNnHhrvuwYaviuONX0/view?usp=sharing', '_blank')">Ver Receitas</button>
+        </div>
+        <div class="volume">
+            <h2>Volume 2</h2>
+            <p>Receitas Brasileiras</p>
+            <button onclick="window.open('https://drive.google.com/file/d/1czUuEHAclkyGrKuqlebIy-yOGunBpUAM/view?usp=sharing', '_blank')">Ver Receitas</button>
+        </div>
+        <div class="volume">
+            <h2>Volume 3</h2>
+            <p>Receitas Anglo-saxônicas</p>
+            <button onclick="window.open('https://drive.google.com/file/d/1gy97_x53GEbt5_Ea16rQ6_n0HlTzfvYv/view?usp=sharing', '_blank')">Ver Receitas</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
